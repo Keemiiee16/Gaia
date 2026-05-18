@@ -977,7 +977,7 @@ async def baby_temperament_reveal(interaction: discord.Interaction, baby_id_or_n
     await interaction.response.send_message(embed=embed("Temperament Revealed", f"**{item.get('name')}** is **{item.get('temperament')}**."))
 
 
-baby.add_command(baby_temperament)
+
 
 
 # ============================================================
